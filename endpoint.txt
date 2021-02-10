@@ -1,6 +1,8 @@
 - GET/pacientes
 
 - GET/pacientes/id
+404
+{"error":"Paciente não existe"}
 
 - POST/pacientes
 
