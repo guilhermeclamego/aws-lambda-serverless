@@ -1,0 +1,11 @@
+- GET/pacientes
+
+- GET/pacientes/id
+
+- POST/pacientes
+
+- PUT/pacientes/id
+
+- DELETE/pacientes/id
+
+FRONTEND -> API GATEWAY -> LAMBDAS

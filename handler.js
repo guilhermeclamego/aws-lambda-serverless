@@ -1,5 +1,4 @@
 'use strict';
-
 const pacientes = [
   {id:1, nome:"Maria", dataNascimento: '1984-01-11'},
   {id:2, nome:"Jose", dataNascimento: '1983-09-16'},
@@ -7,7 +6,7 @@ const pacientes = [
 ];
 
 module.exports.listarPacientes = async (event) => {
-  console.log("teste" + event);
+  console.log(event);
   return {
     statusCode: 200,
     body: JSON.stringify(
@@ -15,7 +14,7 @@ module.exports.listarPacientes = async (event) => {
         pacientes
       },
       null,
-      2
-    ),
+      2     
+    )   
   };
 };
